@@ -224,7 +224,7 @@ class TicketSelection : AppCompatActivity(), PaymentResultListener{
 
             val prefill = JSONObject()
             prefill.put("email", "example@mail.com")
-            prefill.put("contact", "")
+            prefill.put("contact", "+902345678999")
 
             options.put("prefill", prefill)
 
