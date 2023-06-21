@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "176354139344",
+    "project_id": "eventticketapp",
+    "storage_bucket": "eventticketapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176354139344:android:04f72f5d921b64f86192d5",
+        "android_client_info": {
+          "package_name": "com.sezen.eventticketapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMGf3Agi1cSSVgjoZN65FhGzb-iXAsjXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176354139344:android:5c5103bc1fdfca696192d5",
+        "android_client_info": {
+          "package_name": "com.sezen.eventticketsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMGf3Agi1cSSVgjoZN65FhGzb-iXAsjXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

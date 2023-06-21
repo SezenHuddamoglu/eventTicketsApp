@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">eventTicketsApp</string>
+    <string name="select_category_prompt">Kategori seçin</string>
+</resources>

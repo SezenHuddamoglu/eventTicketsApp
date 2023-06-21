@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <CheckBox
+        android:id="@+id/checkboxTimeRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zamana Göre Filtrele"
+        android:layout_marginStart="15dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutTimeRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginStart="10dp">
+
+        <EditText
+            android:id="@+id/etTimeFrom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Başlangıç Saati" />
+
+        <EditText
+            android:id="@+id/etTimeTo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Bitiş Saati" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkboxDateRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarihe Göre Filtrele"
+        android:layout_marginStart="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutDateRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginStart="10dp">
+
+        <EditText
+            android:id="@+id/etDateFrom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Başlangıç Tarihi" />
+
+        <EditText
+            android:id="@+id/etDateTo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Bitiş Tarihi" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkboxPriceRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiyata Göre Filtrele"
+        android:layout_marginStart="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutPriceRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginStart="10dp">
+
+        <EditText
+            android:id="@+id/etPriceFrom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Min Fiyat" />
+
+        <EditText
+            android:id="@+id/etPriceTo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Max Fiyat" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uygula"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        />
+
+</LinearLayout>
